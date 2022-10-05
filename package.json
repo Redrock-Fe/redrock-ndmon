@@ -1,0 +1,25 @@
+{
+  "name": "ndmon",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/ndm-cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ndm"
+  },
+  "bin": {
+    "ndmon": "bin/ndmon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.15.10"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "chalk": "^5.0.1",
+    "commander": "^9.4.1",
+    "watch-ysy": "^1.2.2"
+  }
+}
